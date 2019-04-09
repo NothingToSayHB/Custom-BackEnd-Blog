@@ -1,0 +1,16 @@
+.fieldinfo {
+    color: rgb(251,174,44);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.comment-block {
+    background: #F6F7F9;
+}
+.heading {
+    font-weight: bold;
+    color: #005E90;
+}
+.heading:hover {
+    color: #0090DB;
+    cursor: pointer;
+}
