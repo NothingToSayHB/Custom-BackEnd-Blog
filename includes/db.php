@@ -1,5 +1,5 @@
 <?php 
 
-$dsn = 'mysql:host = localhot; dbname=blog';
+$dsn = 'mysql:host = localhost; dbname=blog';
 $connecting = new PDO($dsn, 'root', '');
 
