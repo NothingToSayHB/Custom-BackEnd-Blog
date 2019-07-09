@@ -109,8 +109,8 @@ require_once 'DefaultHeader.php';
                         $stmt = $connecting->query($sql);
                         $row_pagination = $stmt->fetch();
                         $total_posts = array_shift($row_pagination); // 15
-                        $post_pagination = $total_posts/4; // 4 almost .. 3.75 ok
-                        $post_pagination = ceil($post_pagination); // 4 :p
+                        $post_pagination = $total_posts/4; // 4 почти 
+                        $post_pagination = ceil($post_pagination); // 4 
 
                         for ($i = 1; $i <= $post_pagination; $i++) {
                          if (isset($page)){
